@@ -57,6 +57,27 @@ Password authentication will not work.
 ![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/4068d6c3-0b37-45f1-8417-12e9adcca70d)
 
 
+### Viewing branches
+```
+git branch -a
+```
+Asterik denotes the current branch.
+
+### Creating new branch
+
+```
+git checkout -b develop
+```
+![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/366bef47-f23b-4fa4-ac8d-8692ec0bd154)
+
+### Switching branches
+```
+git checkout main
+```
+![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/04038756-09ad-4591-9298-a092df83ea1f)
+
+
+
 
 
 
