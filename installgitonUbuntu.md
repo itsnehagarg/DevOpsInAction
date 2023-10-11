@@ -1,4 +1,4 @@
-# Install Git on Ubuntu
+# Install and configure Git on Ubuntu
 
 ## Commands to install Git
 ```
