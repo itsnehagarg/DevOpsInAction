@@ -11,7 +11,6 @@ sudo apt install git
 ```
 git --version
 ```
-![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/a320e387-badb-41bb-b916-c43df7cd2de4)
 
 ### Integrate GitHub account with Git
 
