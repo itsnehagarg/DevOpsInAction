@@ -54,6 +54,7 @@ Password authentication will not work.
 
 ### Again give the command git push origin main for pushing the code to the repository.
 
+![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/4068d6c3-0b37-45f1-8417-12e9adcca70d)
 
 
 
