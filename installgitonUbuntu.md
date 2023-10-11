@@ -26,6 +26,37 @@ git config --global user.name "xyz@gm.com"
 git config --list
 ```
 
+### git clone
+
+### git status
+
+### git add filename
+
+### git commit -m "message"
+
+### git push origin main
+It will ask for gitHub username and password.
+Password authentication will not work.
+
+### Configure authentication method
+
+- Go to GitHub-> Settings -> Developer Settings -> Personal access tokens (classic) -> Generate new token (classic)
+- give the note
+- give the expiration date
+- Select scope-> select the required options
+- click on generate token
+- copy the token and save it.
+- Use the below command:
+
+```
+ git remote set-url origin https://<token>@github.com/<username>/<repo>
+
+```
+
+### Again give the command git push origin main for pushing the code to the repository.
+
+
+
 
 
 
