@@ -16,7 +16,7 @@ git --version
 
 ```
 git config --global user.name "xyz"
-git config --global user.name "xyz@gm.com"
+git config --global user.email "xyz@gm.com"
 
 ```
 ### To view the global config variables
@@ -34,7 +34,7 @@ git config --list
 ### git commit -m "message"
 
 ### git push origin main
-It will ask for gitHub username and password.
+It will ask for GitHub username and password.
 Password authentication will not work.
 
 ### Configure authentication method
