@@ -40,6 +40,9 @@ git config --list
 It will ask for GitHub username and password.
 Password authentication will not work.
 
+![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/3a6258b1-6c91-4d27-9394-3912b2901279)
+
+
 ### Configure authentication method
 
 - Go to GitHub-> Settings -> Developer Settings -> Personal access tokens (classic) -> Generate new token (classic)
