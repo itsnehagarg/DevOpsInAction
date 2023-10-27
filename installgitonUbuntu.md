@@ -46,6 +46,9 @@ Password authentication will not work.
 ### Configure authentication method
 
 - Go to GitHub-> Settings -> Developer Settings -> Personal access tokens (classic) -> Generate new token (classic)
+  
+  ![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/2a797817-9252-4962-be00-d3fa4212647b)
+
 - give the note
 - give the expiration date
 - Select scope-> select the required options
