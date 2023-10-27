@@ -33,6 +33,9 @@ git config --list
 
 ### git commit -m "message"
 
+![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/9bf2d910-6f21-4a7f-b201-a50eb690a206)
+
+
 ### git push origin main
 It will ask for GitHub username and password.
 Password authentication will not work.
