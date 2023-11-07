@@ -40,7 +40,8 @@ For Windows it uses WinRM protocol.
 ### Ansible installation on EC2:
 
 1. We will create 2 EC2 servers.
-2. One for running the ansible commands & the other one as target server or destination server.
+2. One for running the ansible commands & the other one as target server or destination server. Using the Ansible server we will do configurations of destination server.
+3. We need to setup password less authentication. So, ansible server can communicate with the other server.
 
    
 ```
