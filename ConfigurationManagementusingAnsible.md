@@ -23,16 +23,15 @@ Ansible is a modern configuration management tool that facilitates the task of s
 - Support for Windows/ Linux is good with Ansible,
 - YAML files are used in Ansible.
 
-#### Disadvantages of Ansible:
+#### 🌼Disadvantages of Ansible:
 1. Debugging needs to be improved
 2. Performance needs to be improved
 3. Windows support of ansible needs to be improved
 
-Interview questions:
+🌼Interview questions:
 1. Ansible supports both Linux & Windows.
 For Linux it uses SSH protocol.
 For Windows it uses WinRM protocol.
-
 2. Diff between Puppet/ Chef & Ansible.
 3. Ansible is pull or push mechanism.
 4. Which programming language is used to write Ansible playbooks? YAML
@@ -40,7 +39,7 @@ For Windows it uses WinRM protocol.
 
 
 
-#### References:
+#### 🌼References:
 https://www.digitalocean.com/community/conceptual-articles/an-introduction-to-configuration-management-with-ansible
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-ansible-on-ubuntu-20-04
