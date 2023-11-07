@@ -37,7 +37,12 @@ For Windows it uses WinRM protocol.
 4. Which programming language is used to write Ansible playbooks? YAML
 5. Ansible supports every cloud provider?- Cloud Provider is not a concern for ansible. Main things are: IP address, SSH access to the machine, Ansible hosts can access the machines, are they SSH enabled.
 
+### Ansible installation:
 
+```
+sudo apt get update
+sudo apt install ansible
+```
 
 #### 🌼References:
 https://www.digitalocean.com/community/conceptual-articles/an-introduction-to-configuration-management-with-ansible
