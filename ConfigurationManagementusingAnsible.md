@@ -42,6 +42,7 @@ For Windows it uses WinRM protocol.
 ```
 sudo apt get update
 sudo apt install ansible
+ansible --version
 ```
 
 #### 🌼References:
