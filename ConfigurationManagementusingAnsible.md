@@ -53,11 +53,28 @@ ansible --version
 ```
 
 4. Lets setup password less authentication.
-5. use the command:
+5. Use the command in Server 1 (Ansible server) :
 ```
 ssh-keygen
-``` 
-6. 
+```
+Two keys get generated: public key and private key.
+6. We will go to the path of public key cd /home/ubuntu/.ssh and copy the public key named id_rsa.
+7. Now Connect to your 2nd machine(target machine): We will perform ssh-keygen on this server also.
+8. Go to the location where the keys got generated.
+9. Open the authorizedkeys file using the vi editor.
+10. Now paste the public key (id_rsa) which was copied from server 1. This will ensure the authorization of the server 1 on server 2.
+![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/adab5d2e-f20b-4e3e-93fc-38216b43a7a5)
+
+11. Let's go back to server 1 and do an ssh to the target server.
+```
+ssh private_ip_of_target_server
+```
+Now you can see that we can connect to target server without any password.
+
+
+
+
+
 
 #### 🌼References:
 https://www.digitalocean.com/community/conceptual-articles/an-introduction-to-configuration-management-with-ansible
