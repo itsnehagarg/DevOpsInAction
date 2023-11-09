@@ -71,7 +71,8 @@ ssh private_ip_of_target_server
 ```
 Now you can see that we can connect to target server without any password.
 
-12. Now we will write Ansible playbooks.
+12. We can also execute Ansible adhoc commands.
+13. Now we will write Ansible playbooks.Ansible Playbooks offer a repeatable, reusable, simple configuration management and multi-machine deployment system, one that is well suited to deploying complex applications. 
 
 
 
