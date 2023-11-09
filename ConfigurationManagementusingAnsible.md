@@ -40,8 +40,10 @@ For Windows it uses WinRM protocol.
 ### Ansible installation on EC2:
 
 1. We will create 2 EC2 servers.
-2. One for running the ansible commands & the other one as target server or destination server. Using the Ansible server we will do configurations of destination server.
-3. We need to setup password less authentication. So, ansible server can communicate with the other server.
+   ![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/ccab4dc3-6e0d-4725-a396-d29b4452c6f4)
+
+3. One for running the ansible commands & the other one as target server or destination server. Using the Ansible server we will do configurations of destination server.
+4. We need to setup password less authentication. So, ansible server can communicate with the other server.
 
    
 ```
@@ -49,6 +51,13 @@ sudo apt update
 sudo apt install ansible
 ansible --version
 ```
+
+4. Lets setup password less authentication.
+5. use the command:
+```
+ssh-keygen
+``` 
+6. 
 
 #### 🌼References:
 https://www.digitalocean.com/community/conceptual-articles/an-introduction-to-configuration-management-with-ansible
