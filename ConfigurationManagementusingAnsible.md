@@ -90,6 +90,10 @@ ansible -i inventory all -m "sheell" -a "touch devopsclass"
 ```
 ![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/7aace5e8-5716-4452-a9fe-027bef48261e)
 
+1.4 After executing the command we will go back to the target server and check if the file is created.
+
+![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/9e7907b8-649f-477c-be84-bb84928bade7)
+
 13. 
 14. Now we will write Ansible playbooks.Ansible Playbooks offer a repeatable, reusable, simple configuration management and multi-machine deployment system, one that is well suited to deploying complex applications. 
 
