@@ -63,8 +63,6 @@ ssh-keygen
 8.  Go to the location where the keys got generated.
 9.  Open the authorizedkeys file using the vi editor.
 10.  Now paste the public key (id_rsa) which was copied from server 1. This will ensure the authorization of the server 1 on server 2.
-![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/adab5d2e-f20b-4e3e-93fc-38216b43a7a5)
-
 11.  Let's go back to server 1 and do an ssh to the target server.
 ```
 ssh private_ip_of_target_server
@@ -72,7 +70,28 @@ ssh private_ip_of_target_server
 Now you can see that we can connect to target server without any password.
 
 12. We can also execute Ansible adhoc commands.
-13. Now we will write Ansible playbooks.Ansible Playbooks offer a repeatable, reusable, simple configuration management and multi-machine deployment system, one that is well suited to deploying complex applications. 
+    Inventory stores the IP addesses of the target servers.The default location for the inventory file is /etc/ansible/hosts. You can also create project-specific inventory files in alternate locations. The inventory file can list individual hosts or user-defined groups of hosts.
+```
+ansible -i inventory private_IP_address_of_target_server
+```
+```
+ansible -i inventory all
+```
+all above means all the IP addresses in the inventory file.
+
+1.1 Created a inventory file
+1.2 Added the private IP address of the target server to this file.
+
+![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/94ab1770-4170-4930-af91-0529e93cd4ce)
+
+1.3 Execute the below command:
+```
+ansible -i inventory all -m "sheell" -a "touch devopsclass"
+```
+![image](https://github.com/itsnehagarg/DevOpsInAction/assets/20385826/7aace5e8-5716-4452-a9fe-027bef48261e)
+
+13. 
+14. Now we will write Ansible playbooks.Ansible Playbooks offer a repeatable, reusable, simple configuration management and multi-machine deployment system, one that is well suited to deploying complex applications. 
 
 
 
