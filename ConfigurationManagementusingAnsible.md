@@ -71,7 +71,7 @@ ssh private_ip_of_target_server
 ```
 Now you can see that we can connect to target server without any password.
 
-
+12. Now we will write Ansible playbooks.
 
 
 
